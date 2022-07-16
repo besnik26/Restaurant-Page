@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    height: auto;
+    font-size: 20px;
+    box-shadow: 0px 2px 5px rgb(196, 196, 196); 
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    
+
+}
+.nav-title a{
+    text-decoration: none;
+    color: black;
+    
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.nav-title a:hover{
+    background-color: rgb(196, 196, 196);
+}
+.nav-links a:hover{
+    background-color: rgb(196, 196, 196);
+}
+.home{
+    width: 100%;
+    height: auto;
+}
+.home img {
+    /* height:705px; */
+    width: 100%;
+    box-shadow: 0px 4px 5px rgb(196, 196, 196); 
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 70px;
+    /* background-color: yellow; */
+    box-shadow: 0px 4px 5px rgb(196, 196, 196); 
+}
+.aboutpic img{
+    width: 600px;
+    height: auto;
+}
+.abouttext{
+    padding: 20px;
+    background-color: snow;
+    width: 600px;
+    height: auto;
+    
+}
+span{
+    color: gray;
+}
+.abouttext h1{
+    text-align: center;
+}
+.abouttext h4{
+    text-align: center;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 70px;
+    box-shadow: 0px 4px 5px rgb(196, 196, 196); 
+}
+.menuphoto img {
+    width: 600px;
+    height: auto;
+}
+.menutext{
+    padding: 20px;
+    background-color: snow;
+    width: 600px;
+    height: auto;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 70px;
+}
+.condiv{
+    padding: 20px;
+    background-color: snow;
+    width: 1200px;
+    height: auto;
+}
+.condiv input{
+    width: 100%;
+    padding: 10px;
+}
+.condiv button{
+    
+    width: 20%;
+    padding: 8px;
+
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+    background-color: rgb(196, 196, 196);
+}
+.footer div{
+    text-align: center;
+    padding: 10px;
+    /* background-color: snow; */
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+    .navigation{
+        font-size: 15px;
+    }
+    .about{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+    .aboutpic img{
+        width:450px;
+        height: auto;
+    }
+    .menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+    .menuphoto img{width:450px;
+        height: auto;
+    }
+    .condiv button{
+    
+        width: 40%;
+        padding: 8px;
+    
+    }
+  }
+  
+
+@media only screen and (max-width: 450px) {
+    .navigation{
+        font-size: 10px;
+    }
+    
+    .aboutpic img{
+        width:300px;
+        height: auto;
+    }
+    .menuphoto img{
+        width:300px;
+        height: auto;
+    }
+    .condiv button{
+    
+        width: 40%;
+        padding: 8px;
+    
+    }
+  }
